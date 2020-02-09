@@ -1,0 +1,25 @@
+
+.landing-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page__info-panel {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    height: 100px;
+    flex-direction: column;
+}
+
+.landing-page__main-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.landing-page__sub-text {
+    font-size: 28px;
+    color: var(--pink);
+}
