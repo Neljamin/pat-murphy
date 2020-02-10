@@ -1,8 +1,12 @@
 import styled, { css } from 'styled-components'
 
 export default styled.div`
-    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
     width: 100%;
+    padding: 40px 0;
 
     ${props =>
         css`
