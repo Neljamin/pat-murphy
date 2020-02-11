@@ -7,11 +7,11 @@ const LandingPage = () => {
     return (
         <AlmostFullscreen
             className="landing-page"
-            backgroundImage='/assets/images/sea.jpeg'
+            backgroundImage='/assets/images/another-sea.jpeg'
         >
             <div className="landing-page__info-panel">
                 <span className="landing-page__main-text">
-                    Pat Murphy
+                    Patrick Murphy
                 </span>
                 <span className="landing-page__sub-text">
                     Counselling Services

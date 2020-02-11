@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
+  --white: #f1f1f1;
+  --light-yellow: #fffee9;
+  --yellow: #f7bd0f;
   --dark-blue: #011f41;
   --green: #b5e3ff;
   --pink: #da5772;

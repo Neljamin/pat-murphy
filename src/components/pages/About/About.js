@@ -5,7 +5,8 @@ import {
     AlmostFullscreen,
     ImageWithDescription,
     Container,
-    Testimonials
+    Testimonials,
+    Heading
 } from '../../widgets';
 
 const fakeText = `
@@ -32,12 +33,12 @@ const LandingPage = () => {
     return (
         <AlmostFullscreen
             className="about"
-            backgroundColor='light-pink'
+            backgroundColor='white'
         >
             <Container>
-                <h1>
+                <Heading>
                     About
-                </h1>
+                </Heading>
                 <ImageWithDescription
                     text={fakeText}
                     imageSrc="/assets/images/headshot.jpg"
@@ -47,9 +48,9 @@ const LandingPage = () => {
                     imageSrc="/assets/images/well.jpeg"
                     imagePosition="right"
                 />
-                <h1>
+                <Heading>
                     Testimonials
-                </h1>
+                </Heading>
                 <Testimonials
                     config={testimonialConfig}
                 />
