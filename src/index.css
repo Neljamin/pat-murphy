@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
+p {
+  margin: 0;
+}
+
 :root {
   --white: #f1f1f1;
   --light-yellow: #fffee9;

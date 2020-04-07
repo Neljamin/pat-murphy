@@ -30,7 +30,7 @@ const StyledImg = styled.img`
 `;
 
 const ImageWithDescription = ({
-    text,
+    innerHtml,
     imageSrc,
     imagePosition = 'left'
 }) => {
@@ -43,9 +43,7 @@ const ImageWithDescription = ({
                 alt=""
                 imagePosition={imagePosition}
             />
-            <span>
-                {text}
-            </span>
+            <div dangerouslySetInnerHTML={{__html: innerHtml}} />
         </StyledImageWithDescription>
     )
 };
